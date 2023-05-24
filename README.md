@@ -21,14 +21,15 @@ Building The Provider
 Download the provider source code
 
 ```sh
-$ go get github.com/camptocamp/terraform-provider-freeipa
+git clone https://github.com/ksemele/terraform-provider-freeipa.git
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/camptocamp/terraform-provider-freeipa
-$ make build
+cd terraform-provider-freeipa
+make build
+go build
 ```
 
 Installing the provider
